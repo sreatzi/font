@@ -1,0 +1,155 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgb(70,76,91);
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar li {
+  margin-right: 20px;
+}
+.navbar a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(193, 193, 193);
+}
+/* 移动端样式 */
+
+
+#shouye
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(26,188,156), rgb(30, 210, 142),rgb(26, 220, 166));
+}
+
+
+.navbar-word1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 10px;
+}
+
+.navbar-word-1 p{
+  margin-right: 20px;
+  font-size: 2rem;
+  line-height: 1.6;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-word-1 a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+.content-1 {
+  width: 1%;
+  padding-top: 2%; /* 高度为宽度的 19.99% */
+  background-color: rgb(26,188,156) ;
+  position: relative;
+  justify-content: center;
+    align-items: center;
+
+}
+.content-1 a{
+  color: rgb(24, 24, 24);
+}
+.zi table tr
+{
+border-radius: 3px;
+}
+.zi table tr a {
+color: rgb(169, 169, 169);                                               
+margin: auto;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
+}
+
+.zi table tr a:hover {
+color: rgb(48, 48, 48);
+}
+
+#co-box{
+  margin-top: -150px;
+}
+.con-tain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.w-box {
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 15px;
+  margin-top: 200px;
+  box-shadow: 1px 1px 1px 1px rgb(151, 151, 151);
+  width: 1300px;
+  height: 650px;
+  background-color: rgb(245, 245, 245,0.8);
+}
+
+#word-box{
+  margin-top: 10px;
+}
+
+.con-tain-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.con-tain-1 p{
+ color: rgb(13, 117, 236);
+}
+
+.zi{
+  pointer-events: none;
+ cursor: default;
+  opacity: 0;
+}
+#zi {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.zis{
+  opacity: 0;
+  z-index: -999;
+  pointer-events: none;
+  margin-top: -40px;
+  width: 350px;
+  pointer-events: none;
+}
+.zis table tr
+{
+  border-radius: 3px;
+}
+.zis table tr a {
+
+  pointer-events: none;
+  color: rgb(169, 169, 169);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.zis table tr a:hover {
+  color: rgb(48, 48, 48);
+}
+
+.zis td{
+  color: rgb(164, 164, 164);
+  border: 1px solid rgb(164, 164, 164);
+  padding: 8px;
+}

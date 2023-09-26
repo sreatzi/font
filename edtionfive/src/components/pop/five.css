@@ -1,0 +1,215 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(28, 48, 92);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li {
+    margin-right: 20px;
+}
+.navbar a {
+    
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+/* 移动端样式 */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+    .navbar ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .navbar a {
+        color: rgb(211, 58, 58);
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: rgb(255, 120, 120);
+    }
+}
+
+
+#shouye
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:rgb(82, 168, 138) ;
+}
+
+
+.navbar-word1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 10px;
+}
+
+.navbar-word1 p{
+    margin-right: 20px;
+    font-size: 2rem;
+    line-height: 1.6;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-word1 a{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+
+@media (max-width: 600px) {
+    .navbar-word1 p {
+      font-size: 3.5vw;
+    }
+  }
+  
+  /* 定义 @media 媒体查询，当视窗宽度小于 900px 时调整字体大小 */
+  @media (max-width: 900px) {
+    .navbar-word1 p {
+      font-size: 2.5vw;
+    }
+  }
+  .flex-box {
+    display: flex;
+    align-items: center; /* 水平居中对齐 */
+  }
+  
+  .content1 {
+    width: 1%;
+    padding-top: 2%; /* 高度为宽度的 19.99% */
+    background-color: rgb(82, 168, 138);
+    position: relative;
+    justify-content: center;
+      align-items: center;
+
+  }
+  #co-box{
+    margin-top: -200px;
+  }
+  .con-tain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .w-box {
+    box-shadow: 1px 1px 1px 1px rgb(125, 123, 123);
+    width: 1300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #word-box{
+    margin-top: -100px;
+  }
+
+  .con-tain1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  .con-tain1 p{
+   color: blue;
+  }
+
+  .zi table{
+    margin-top: 5px;
+    border-collapse: collapse;
+  }
+  .zi td
+   {
+   color: rgb(164, 164, 164);
+    border: 1px solid rgb(164, 164, 164);
+    padding: 8px;
+  }
+
+  .tt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+  }
+
+.t-box1,
+.t-box2{
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 5px 5px ;
+
+}
+
+  .t-word2
+  {color:rgb(51, 133, 255);
+    border-radius: 5px 5px ;
+
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    border: 5px solid rgb(214, 214, 214);
+
+  }
+  
+  .t-word1{
+    border-radius: 5px 5px ;
+
+    background-color: rgb(235, 235, 235);
+    border: 5px solid rgb(214, 214, 214);
+    color:rgb(51, 133, 255);
+    
+    text-align: center;
+  }
+  .scroll-container {
+    width: 510px;
+    height: 350px;
+    overflow: auto;
+    margin: -20px auto;
+    border: 1px solid #ccc;
+  }
+  
+  .scroll-content {
+    width: 800px;
+    height: 400px;
+  }
+
+  a {
+    list-style: none;
+    border: none;
+    text-decoration: none;
+  }
+
+  .hedui{
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    background-color: rgb(51, 133, 255);
+    border: none;
+    width: 150px;
+    height: 45px;
+    margin-right: -255px;
+    margin-left: 110px;
+  }
+
+  #woce th
+  {
+    
+    font-weight:400;
+    background-color: rgb(225, 225, 225);
+  border: 1px solid black;
+  padding: 8px;
+  }
